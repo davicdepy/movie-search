@@ -1,46 +1,33 @@
-# Getting Started with Create React App
+# Buscador de Películas
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Buscador de Películas es una aplicación web intuitiva y fácil de usar, diseñada para los aficionados al cine que desean explorar y obtener información sobre sus películas favoritas. Conectándose a la API de [OMDb](http://www.omdbapi.com/), esta aplicación proporciona datos actualizados y detallados de una amplia variedad de títulos cinematográficos.
 
-## Available Scripts
+## Características Principales
 
-In the project directory, you can run:
+- **Búsqueda Avanzada:** Encuentra películas por título y año de estreno con facilidad.
+- **Galería de Películas:** Visualiza un catálogo de películas que incluye imágenes promocionales, títulos y calificaciones.
+- **Información Detallada:** Accede a una vista detallada de cada película, que incluye galería de imágenes, título, calificación por usuarios, sinopsis completa, director y reparto principal.
 
-### `npm start`
+## Tecnologías Implementadas
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- **React:** Framework de JavaScript para la creación de interfaces de usuario dinámicas y reactivas.
+- **TypeScript:** Lenguaje de programación que extiende JavaScript añadiendo tipos estáticos y mejorando la experiencia de desarrollo.
+- **Material-UI:** Librería de componentes de React que facilita la implementación de Material Design, ofreciendo una experiencia de usuario cohesiva y moderna.
+- **Axios:** Cliente HTTP basado en promesas para el navegador y Node.js, perfecto para realizar peticiones a APIs externas como la de OMDb.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Instalación
 
-### `npm test`
+Para instalar y ejecutar Buscador de Películas en tu entorno local, sigue estos pasos:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clona el repositorio:
+2. Instala las dependencias: `npm install`
+3. Para test unitarios: `npm test`
+4. Para ejecutar la aplicación en modo de desarrollo: `npm start`
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Requisitos del Sistema
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Para ejecutar Buscador de Películas en tu entorno local, necesitarás tener instalado:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Navegador Web moderno (Chrome, Firefox, Edge, Safari, etc.). La aplicación ha sido desarrollada y probada con Google Chrome.
+- Node.js versión 18.19.0 o superior. La aplicación ha sido desarrollada y probada con Node.js v21.7.0.
