@@ -44,7 +44,7 @@ export interface MovieDetails {
   Error?: string;
 }
 
-const apiKey: string = "dddcab16";
+const apiKey: string = process.env.REACT_APP_OMDB_API_KEY || "";
 
 const api: AxiosInstance = axios.create({
   baseURL: "https://www.omdbapi.com/",
